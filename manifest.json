@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Loadstringer",
+    "version": "1.0",
+    "description": "Format URLs into loadstring for Lua scripts and detect raw script links.",
+    "permissions": [
+      "activeTab",
+      "clipboardWrite",
+      "notifications"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "logo.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
